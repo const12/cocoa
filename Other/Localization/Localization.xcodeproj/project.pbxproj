@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E198CE452637C1C7002C1BD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E198CE442637C1C7002C1BD7 /* AppDelegate.m */; };
+		E198CE472637C1C8002C1BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E198CE462637C1C8002C1BD7 /* Assets.xcassets */; };
+		E198CE4A2637C1C8002C1BD7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E198CE482637C1C8002C1BD7 /* MainMenu.xib */; };
+		E198CE4D2637C1C8002C1BD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E198CE4C2637C1C8002C1BD7 /* main.m */; };
+		E198CE572637C3DF002C1BD7 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = E198CE562637C3DF002C1BD7 /* Controller.m */; };
+		E198CE792637F04B002C1BD7 /* Mojave Day.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E198CE7B2637F04B002C1BD7 /* Mojave Day.jpg */; };
+		E198CE7F2637F058002C1BD7 /* Mojave Night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E198CE812637F058002C1BD7 /* Mojave Night.jpg */; };
+		E198CE872637F5E4002C1BD7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E198CE862637F5E4002C1BD7 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E198CE402637C1C7002C1BD7 /* Localization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Localization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E198CE432637C1C7002C1BD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E198CE442637C1C7002C1BD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E198CE462637C1C8002C1BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E198CE492637C1C8002C1BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E198CE4B2637C1C8002C1BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E198CE4C2637C1C8002C1BD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E198CE4E2637C1C8002C1BD7 /* Localization.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Localization.entitlements; sourceTree = "<group>"; };
+		E198CE552637C3DF002C1BD7 /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		E198CE562637C3DF002C1BD7 /* Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		E198CE7A2637F04B002C1BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = "en.lproj/Mojave Day.jpg"; sourceTree = "<group>"; };
+		E198CE7D2637F051002C1BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = "Base.lproj/Mojave Day.jpg"; sourceTree = "<group>"; };
+		E198CE802637F058002C1BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = "Base.lproj/Mojave Night.jpg"; sourceTree = "<group>"; };
+		E198CE832637F05C002C1BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = "en.lproj/Mojave Night.jpg"; sourceTree = "<group>"; };
+		E198CE862637F5E4002C1BD7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E198CE8B2637F838002C1BD7 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		E198CE8C2637F973002C1BD7 /* zh */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zh; path = "zh.lproj/Mojave Day.jpg"; sourceTree = "<group>"; };
+		E198CE8D2637F97A002C1BD7 /* zh */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zh; path = "zh.lproj/Mojave Night.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E198CE3D2637C1C7002C1BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E198CE372637C1C7002C1BD7 = {
+			isa = PBXGroup;
+			children = (
+				E198CE422637C1C7002C1BD7 /* Localization */,
+				E198CE412637C1C7002C1BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E198CE412637C1C7002C1BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E198CE402637C1C7002C1BD7 /* Localization.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E198CE422637C1C7002C1BD7 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				E198CE892637F6D9002C1BD7 /* Chinese.lproj */,
+				E198CE5B2637EF4C002C1BD7 /* images */,
+				E198CE432637C1C7002C1BD7 /* AppDelegate.h */,
+				E198CE442637C1C7002C1BD7 /* AppDelegate.m */,
+				E198CE462637C1C8002C1BD7 /* Assets.xcassets */,
+				E198CE482637C1C8002C1BD7 /* MainMenu.xib */,
+				E198CE4B2637C1C8002C1BD7 /* Info.plist */,
+				E198CE4C2637C1C8002C1BD7 /* main.m */,
+				E198CE4E2637C1C8002C1BD7 /* Localization.entitlements */,
+				E198CE552637C3DF002C1BD7 /* Controller.h */,
+				E198CE562637C3DF002C1BD7 /* Controller.m */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		E198CE5B2637EF4C002C1BD7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E198CE7B2637F04B002C1BD7 /* Mojave Day.jpg */,
+				E198CE812637F058002C1BD7 /* Mojave Night.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E198CE892637F6D9002C1BD7 /* Chinese.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E198CE862637F5E4002C1BD7 /* Localizable.strings */,
+			);
+			path = Chinese.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E198CE3F2637C1C7002C1BD7 /* Localization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E198CE512637C1C8002C1BD7 /* Build configuration list for PBXNativeTarget "Localization" */;
+			buildPhases = (
+				E198CE3C2637C1C7002C1BD7 /* Sources */,
+				E198CE3D2637C1C7002C1BD7 /* Frameworks */,
+				E198CE3E2637C1C7002C1BD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Localization;
+			productName = Localization;
+			productReference = E198CE402637C1C7002C1BD7 /* Localization.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E198CE382637C1C7002C1BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E198CE3F2637C1C7002C1BD7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E198CE3B2637C1C7002C1BD7 /* Build configuration list for PBXProject "Localization" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh,
+			);
+			mainGroup = E198CE372637C1C7002C1BD7;
+			productRefGroup = E198CE412637C1C7002C1BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E198CE3F2637C1C7002C1BD7 /* Localization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E198CE3E2637C1C7002C1BD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E198CE872637F5E4002C1BD7 /* Localizable.strings in Resources */,
+				E198CE7F2637F058002C1BD7 /* Mojave Night.jpg in Resources */,
+				E198CE792637F04B002C1BD7 /* Mojave Day.jpg in Resources */,
+				E198CE472637C1C8002C1BD7 /* Assets.xcassets in Resources */,
+				E198CE4A2637C1C8002C1BD7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E198CE3C2637C1C7002C1BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E198CE4D2637C1C8002C1BD7 /* main.m in Sources */,
+				E198CE452637C1C7002C1BD7 /* AppDelegate.m in Sources */,
+				E198CE572637C3DF002C1BD7 /* Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E198CE482637C1C8002C1BD7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E198CE492637C1C8002C1BD7 /* Base */,
+				E198CE8B2637F838002C1BD7 /* zh */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E198CE7B2637F04B002C1BD7 /* Mojave Day.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E198CE7A2637F04B002C1BD7 /* en */,
+				E198CE7D2637F051002C1BD7 /* Base */,
+				E198CE8C2637F973002C1BD7 /* zh */,
+			);
+			name = "Mojave Day.jpg";
+			sourceTree = "<group>";
+		};
+		E198CE812637F058002C1BD7 /* Mojave Night.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E198CE802637F058002C1BD7 /* Base */,
+				E198CE832637F05C002C1BD7 /* en */,
+				E198CE8D2637F97A002C1BD7 /* zh */,
+			);
+			name = "Mojave Night.jpg";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E198CE4F2637C1C8002C1BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E198CE502637C1C8002C1BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E198CE522637C1C8002C1BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Localization/Localization.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Localization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Localization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E198CE532637C1C8002C1BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Localization/Localization.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Localization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.Localization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E198CE3B2637C1C7002C1BD7 /* Build configuration list for PBXProject "Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E198CE4F2637C1C8002C1BD7 /* Debug */,
+				E198CE502637C1C8002C1BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E198CE512637C1C8002C1BD7 /* Build configuration list for PBXNativeTarget "Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E198CE522637C1C8002C1BD7 /* Debug */,
+				E198CE532637C1C8002C1BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E198CE382637C1C7002C1BD7 /* Project object */;
+}
